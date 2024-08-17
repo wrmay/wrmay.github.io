@@ -3,10 +3,18 @@ listing-order: 2
 icon: "/assets/img/github.svg"
 contents:
   - title: "[User Code Namespace Lab](https://github.com/hazelcast-guides/user-code-namespace-lab)"
+    description: A lab demonstrating deploying code into a Hazelcast cluster from a Spring Boot application.
   - title: "[Airline Connections Demo](https://github.com/hazelcast-guides/airline-connections)"
+    description: A demonstration of how to build a complex event processing pipeline using only SQL
   - title: "[Complete Stream Processing with Hazelcast Tutorial](https://github.com/hazelcast-guides/stream-processing-fundamentals)"
+    description: The capstone for the Hazelcast stream processing course.
   - title: "[Hazelcast Spring Microservice Dispatcher](https://github.com/hazelcast-guides/spring-hazelcast-pipeline-dispatcher)"
+    description: An extension allowing Hazelcast Pipelines to be the back-end for Spring Boot web services.
   - title: "[Independent Test of Cluster Health](https://github.com/wrmay/ITCH)"
+    description: A utility that assists with diagnosing problems in a clusted environment.
   - title: "[Cloudlab](https://github.com/wrmay/cloudlab)"
+    description: Quickly configure and deploy multi-server lab environments running on AWS EC2
   - title: "[Carver](https://github.com/wrmay/carver)"
+    description: Python functions to generate gcode (CNC machine instructions) for basic shapes.
   - title: "[Mailhack](https://github.com/wrmay/mailhack)"
+    description: A white-list based utility for managing your email inbox.
