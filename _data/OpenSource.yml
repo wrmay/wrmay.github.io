@@ -1,0 +1,12 @@
+subject: Open Source Projects
+listing-order: 2
+icon: "/assets/img/github.svg"
+contents:
+  - title: "[User Code Namespace Lab](https://github.com/hazelcast-guides/user-code-namespace-lab)"
+  - title: "[Airline Connections Demo](https://github.com/hazelcast-guides/airline-connections)"
+  - title: "[Complete Stream Processing with Hazelcast Tutorial](https://github.com/hazelcast-guides/stream-processing-fundamentals)"
+  - title: "[Hazelcast Spring Microservice Dispatcher](https://github.com/hazelcast-guides/spring-hazelcast-pipeline-dispatcher)"
+  - title: "[Independent Test of Cluster Health](https://github.com/wrmay/ITCH)"
+  - title: "[Cloudlab](https://github.com/wrmay/cloudlab)"
+  - title: "[Carver](https://github.com/wrmay/carver)"
+  - title: "[Mailhack](https://github.com/wrmay/mailhack)"

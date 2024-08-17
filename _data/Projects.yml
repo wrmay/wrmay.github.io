@@ -1,0 +1,55 @@
+subject: Featured Projects
+listing-order: 1
+icon: "/assets/img/briefcase.svg"
+contents:
+  - title: "[Hazelcast Semantic Image Search](https://github.com/hazelcast-guides/hazelcast-image-search)"
+    description: 
+      - Designed and built a proof of concept demonstrating scalable semantic search using Hazelcast
+      - Continuous image ingestion provided by a Hazelcast Pipeline
+      - Images encoded to vectors using the CLIP embedding
+      - Image retrieval via a Jupyter notebook calling nearest neighbor search API
+      - This is the basis for Hazelcast's tutorial which can be found [here](https://docs.hazelcast.com/hazelcast/latest/data-structures/vector-search-tutorial)
+      - "Technology: Hazelcast, Java, Python, HuggingFace, Docker" 
+    date: 2024
+  - title: Hazelcast Microservice Framework 
+    description: 
+      - Designed and built a framework that allows Spring Boot developers to run services on Hazelcast using a familiar paradign.
+      - Wrote an annotation processor to build a Hazelcast pipeline based on an annotated service file (similar to a Spring Boot microservice)
+      - Supports incremental deployment of a new version, seamless upgrade and rollback
+      - "Technology: Hazelcast, Java, Spring Boot, Docker" 
+    date: 2023
+  - title: RV Temperature Monitor (Personal)
+    description: 
+    - A solution to monitor and display RV temperature
+    - The sender is a Raspberry Pi with temp. sensor and cellular connectivity
+    - Data is aggregated and monitored in a Hazelcast cluster running in the cloud.
+    - UI is a Flask application running on EKS
+    - "Technology: Raspbery Pi, Java, Python, Hazelcast, Flask, EKS, Docker"
+    date: 2023
+  - title: Zero Downtime Upgrade of the Fraud Detection System for a Global Credit Card Provider
+    description:
+    - Customer needed to upgrade their fraud detection subsystem, which was based on an out-of-support version of Hazelcast. 
+    - Requirement was for zero down time and an extended period running in hybrid mode with two-way syncing between old and new clusters.
+    - Designed the approach, upgraded their code base, and provided oversight and guidance for the duration of the project
+    - Upgrade was successfully executed before the end of year code freeze
+    - "Technlogy: Java, Hazelcast, Docker"
+    date: 2022
+  - title: Wedding Table Locator (Personal)
+    description:
+      - Designed and developed an innovative application to streamline the wedding guest experience by allowing them to scan a QR code and quickly locate their assigned table.
+      - "Technology: Python, Plotly.dash, Elastic Beanstalk"
+    date: 2022
+  - title: GemFire Consulting
+    description: 
+    - provided expert services, architectural guidance, troubleshooting and mentoring for a wide variety of enterprise customers from many different verticals including Financial Services, Federal, Airline, Logistics, Retail and Food Services
+    - "Technology: Java, GemFire, AWS"
+    date: 2019-2021
+  - title: Vehicle Tracking Platform for a National Truck Rental Company
+    description:
+    - Designed a robust vehicle telemetry platform for a truck rental company using GemFire on AWS. 
+    - Implemented core modules, provided GemFire expertise, development oversight and troubleshooting.
+    - The platform efficiently ingested and processed real-time telemetry data, significantly enhancing the company's operational efficiency.
+    - "Technology: Java, GemFire"
+    date: 2018
+  
+

@@ -1,0 +1,8 @@
+subject: Recent Articles
+listing-order: 3
+icon: "/assets/img/clipboard-list.svg"
+contents:
+  - title: "[ML Inference in Java](https://www.linkedin.com/pulse/ml-inference-java-randy-may-acdse/?trackingId=CtWLT4jyRc%2BLhx1UpmFF5g%3D%3D)"
+    description: A survey of Java based ML inference frameworks and resources
+  - title: "[Reuse and the Wisdom of Grep and Awk](https://www.linkedin.com/pulse/reuse-wisdom-grep-awk-randy-may-usfne/?trackingId=0DETUd%2BtRleN3GzB%2FK9%2BVQ%3D%3D)"
+    description: Some thoughts on how to package tools and frameworks in a way that will make people want to use them.
